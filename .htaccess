@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /ors/
+
+# Redirect to PHP without extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Security headers
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "DENY"
+
+# Prevent directory listing
+Options -Indexes

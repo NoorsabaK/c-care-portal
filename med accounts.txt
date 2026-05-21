@@ -1,0 +1,25 @@
+admin:  code =ADMIN2024
+admin@1gmail.com
+admin1
+
+noor@gmail.com
+book5995
+
+
+
+patient:
+kashif@gmail.com
+8899
+
+
+hospital:
+liaquatn@example.com
+123456
+aghakhan@gmail.com
+665577
+
+patelhospital@example.com
+665577
+
+zu@example.com
+66777888
